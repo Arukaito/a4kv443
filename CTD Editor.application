@@ -8,7 +8,7 @@
         <beforeApplicationStartup />
       </update>
     </subscription>
-    <deploymentProvider codebase="file:///C:/Users/ldelarosa/source/repos/CTD-Editor/CTD%20Editor/bin/publishCTD%20Editor.application" />
+    <deploymentProvider codebase="https://arukaito.github.io/a4kv443/CTD%20Editor.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
@@ -21,7 +21,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>XR8oub244Wb9CXYtuqLFsL1ab3CKbYqUQ5ZGiXmMnVY=</dsig:DigestValue>
+        <dsig:DigestValue>5z9pp/OFCDEAMAcdY3daHwisN+iz0YpwrTLDfg5BGNo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -1,0 +1,58 @@
+﻿
+# like this
+; or this
+
+# By default only in an empty line.
+# Inline comments can be harmful because they prevent users
+# from using the delimiting characters as parts of values.
+# That being said, this can be customized.
+
+[Generals]
+planta = Saltillo
+
+[Label]
+# Numero de parte
+PRT = $PRT
+# Rev
+REV = $REV
+#Ano dos dígitos
+YR2 = $CTD
+#Numero de mes dos dígitos
+MNO = $CTD
+#numero de dia dos dígitos
+DOM = $CTD
+#Hora dos digitos
+H24 = $CTD
+#Minutos dos dígitos
+MIN = $CTD
+#Segundos dos dígitos
+SEC = $CTD
+#Numero corto
+IF8 = $IF8
+#Numero de tablero
+IF9 = $IF9
+#Variable del contador
+TC1  = $TC1
+
+[DrawingSettings]
+NodeFontSize = 52
+LineSize = 52
+LineColor = #eb4034
+
+[Nomenclatures]
+# Below are the recognized nomenclatures for splices.
+# Do not modify the section header "Nomenclatures".
+# Or the Key Name Separatos = 
+# Use one of these names to indicate a splice type.
+# Please add new nomenclatures in the same format, one per line.
+# Avoid using special characters or spaces in nomenclatures.
+
+Separators = 
+	SPLICE
+	UWELD
+	TWISTED
+	SOLDERED
+	CRIMPSPLICE
+	EPX
+	XCR
+
